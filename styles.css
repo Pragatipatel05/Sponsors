@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+    place-content: center;
+    padding-left: 70px;
+}
+
+.container{           
+max-width: 90%;
+padding-top: 25px;
+padding-bottom: 60px;
+padding-left: 50px;
+border-radius: 50px;
+box-shadow: 50px 50px 50px -12px rgba(36, 33, 33, 0.25);
+}
+
+
+h2 {
+border-bottom: 90px;
+font-family:'Times New Roman', Times, serif;
+font-size: 25px;
+color:  black;
+margin: 70px;
+margin-bottom: 25px;
+}
+
+
+.card{   
+align-items: center;
+display: inline-block;
+padding:25px;
+box-shadow: 0px 25px 25px -15px;
+border-radius: 20px;
+margin-right: 18px;
+margin-top: 18px;
+margin-bottom: 18px;
+}
+
+
+img{ 
+    border: 100px;
+    border-radius: 19px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+   
+.abc{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.abc:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px rgb(226, 102, 102);
+}
+
+.tittle > div:hover, .tittle:hover{
+    border-radius: 25px;
+    box-shadow: 0 0 5px 5px rgb(226, 102, 102);
+}
+   
+.platinum > div:hover, .platinum:hover{
+    --box-shadow-color: #8564b1;
+    border: 1px solid var(--box-shadow-color);
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px var(--box-shadow-color);  
+ }
+
+ .platinum > div:hover{
+    transform: scale(1.10);
+ }
+
+.gold > div:hover, .gold:hover{
+    --box-shadow-color: gold;
+    border: 1px solid var(--box-shadow-color);
+    border-radius: 15px;
+    box-shadow: 0 0 5px 5px var(--box-shadow-color);
+}
+
+.gold > div:hover{
+    transform: scale(1.10);
+ }
+
+.silver > div:hover, .silver:hover{
+   --box-shadow-color: rgb(116, 129, 197);
+   border: 1px solid var(--box-shadow-color);
+   border-radius: 15px;
+   box-shadow: 0 0 5px 5px var(--box-shadow-color)
+}
+
+.sliver > div:hover{
+    transform: scale(1.10);
+ }
+
+.bronze > div:hover, .bronze:hover{
+   --box-shadow-color: #CD7F32;
+   border: 1px solid var(--box-shadow-color);
+   border-radius: 15px;
+   box-shadow: 0 0 5px 5px var(--box-shadow-color);  
+}
+.bronze > div:hover{
+    transform: scale(1.10);
+ }
